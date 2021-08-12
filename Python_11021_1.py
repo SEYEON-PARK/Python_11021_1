@@ -11,4 +11,4 @@ T=int(input()) # 사용자로부터 테스트 케이스의 개수 입력받기
     
 for i in range(T): # i에 0부터 T-1까지 대입하며 반복
     A, B=map(int, input().split()) # 사용자로부터 두 개의 정수 입력받기
-    print("Case #%d: %d" %(i+1, A+B)) # 형식에 맞춰 결과 출력하기 
+    print("Case #%d: %d" %(i+1, A+B)) # 형식에 맞춰 결과 출력하기
